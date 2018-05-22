@@ -13,11 +13,11 @@ import {UsuarioModule} from "./Usuario/usuario.module";
   imports: [
       TypeOrmModule.forRoot({
           type: 'mysql',
-          host: '172.31.104.77',
+          host: 'web2018agr2.mysql.database.azure.com',
           port: 3306,
-          username: 'root',
-          password: 'root',
-          database: 'test',
+          username: 'profesor@web2018agr2',
+          password: 'Javascript1',
+          database: 'web',
           entities: [__dirname + '/../**/*.entity{.ts,.js}'],
           synchronize: true,
       }),
