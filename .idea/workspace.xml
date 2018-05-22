@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac40e227-522f-4b59-9057-a305dcb0a6e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/usuario/usuario.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="ac40e227-522f-4b59-9057-a305dcb0a6e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -295,7 +291,7 @@
       <workItem from="1525893495021" duration="639000" />
       <workItem from="1525894181985" duration="5136000" />
       <workItem from="1526419500055" duration="5537000" />
-      <workItem from="1527024538300" duration="902000" />
+      <workItem from="1527024538300" duration="1297000" />
     </task>
     <servers />
   </component>
@@ -305,21 +301,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17732000" />
+    <option name="totallyTimeSpent" value="18127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15416667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15416667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46850392" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46850392" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
