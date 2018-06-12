@@ -9,7 +9,6 @@ export class UsuarioGuard implements CanActivate {
         private reflector: Reflector) {
     }
 
-
     canActivate(
         context: ExecutionContext
     ):
