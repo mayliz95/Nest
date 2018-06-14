@@ -5,7 +5,7 @@ import {USUARIO_SCHEMA} from "./usuario/usuario.schema";
 import {JwtValidoGuard} from "./guards/jwt.valido.guard";
 
 @Controller()
-@UseGuards('JwtValidoGuard')
+//@UseGuards('JwtValidoGuard')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 

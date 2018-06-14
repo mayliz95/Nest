@@ -10,11 +10,7 @@ export class JwtValidoGuard implements CanActivate {
                 private _jwtService: JwtService) {
     }
 
-    canActivate(context: ExecutionContext):
-        boolean |
-        Promise<boolean> |
-        Observable<boolean> {
-
+    canActivate(context: ExecutionContext): boolean | Promise<boolean> | Observable<boolean> {
         const necesitaValidarse = this._reflector
             .get(
                 'metodoAsegurado',
@@ -35,6 +31,5 @@ export class JwtValidoGuard implements CanActivate {
         } else {
             return true;
         }
-
     }
 }
