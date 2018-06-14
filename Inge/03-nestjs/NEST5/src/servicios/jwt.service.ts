@@ -3,7 +3,7 @@ const jwtPaquete = require('jsonwebtoken');
 
 @Injectable()
 export class JwtService {
-    private readonly jwt  = jwtPaquete;
+    private jwt  = jwtPaquete;
     private readonly secreto = 'El sol no quema tanto';
     private readonly opciones = {expiresIn: '30s'};
 
@@ -14,13 +14,13 @@ export class JwtService {
     verificarTokenSync(token: string):
         boolean {
         try {
-            return this.jwt.verify(token,this.secreto)
+            return this.jwt.verify(token,this.secreto);
         } catch (e){
             return false;
         }
     }
 
     verificarTokenAsync(token: string, callback) {
-        this.jwt.verify(token, this.secreto, callback);
+        this.jwt.verify(token, this.secreto, callback)
     }
 }

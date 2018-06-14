@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ac40e227-522f-4b59-9057-a305dcb0a6e9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt.valido.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt.valido.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/auth/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt.valido.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt-valido.guard.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/servicios/jwt.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/servicios/jwt.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,17 +24,29 @@
       <file leaf-file-name="jwt.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/servicios/jwt.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="130">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jwt-valido.guard.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt-valido.guard.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.controller.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="208">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="e#0#87#0" expanded="true" />
               </folding>
@@ -42,31 +54,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="auth.controller.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/auth/auth.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jwt.valido.guard.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt.valido.guard.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="76">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding>
-                <element signature="e#0#73#0" expanded="true" />
+                <element signature="e#0#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,11 +109,12 @@
         <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/exceptions/peticion-invalida.exception.ts" />
         <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/usuario.guards.ts" />
         <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/usuario.controller.ts" />
-        <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.module.ts" />
         <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/usuario.guard.ts" />
-        <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/auth/auth.controller.ts" />
-        <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/servicios/jwt.service.ts" />
         <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt.valido.guard.ts" />
+        <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/servicios/jwt.service.ts" />
+        <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt-valido.guard.ts" />
+        <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/auth/auth.controller.ts" />
         <option value="$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.controller.ts" />
       </list>
     </option>
@@ -141,18 +136,16 @@
       <path value="$PROJECT_DIR$/project/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="753" />
-    <option name="y" value="264" />
-    <option name="width" value="407" />
-    <option name="height" value="486" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="683" />
+    <option name="width" value="680" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,12 +186,31 @@
               <item name="03-nestjs" type="462c0819:PsiDirectoryNode" />
               <item name="NEST5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nest" type="462c0819:PsiDirectoryNode" />
+              <item name="Inge" type="462c0819:PsiDirectoryNode" />
+              <item name="03-nestjs" type="462c0819:PsiDirectoryNode" />
+              <item name="NEST5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="guards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nest" type="462c0819:PsiDirectoryNode" />
+              <item name="Inge" type="462c0819:PsiDirectoryNode" />
+              <item name="03-nestjs" type="462c0819:PsiDirectoryNode" />
+              <item name="NEST5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,6 +287,7 @@
       <workItem from="1528838012415" duration="5330000" />
       <workItem from="1528917391028" duration="634000" />
       <workItem from="1528918044802" duration="2543000" />
+      <workItem from="1529010202239" duration="2136000" />
     </task>
     <servers />
   </component>
@@ -284,26 +297,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34499000" />
+    <option name="totallyTimeSpent" value="36635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="683" y="0" width="680" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12650603" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25877193" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26497006" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -636,10 +650,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt.valido.guard.ts">
+    <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="159">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/servicios/jwt.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/guards/jwt-valido.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="e#0#73#0" expanded="true" />
           </folding>
@@ -648,32 +676,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/auth/auth.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/servicios/jwt.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="76">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="208">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="e#0#87#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inge/03-nestjs/NEST5/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>

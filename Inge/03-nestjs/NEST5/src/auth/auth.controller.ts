@@ -1,5 +1,6 @@
 import {BadGatewayException, BadRequestException, Body, Controller, Post, UseGuards} from "@nestjs/common";
 import {JwtService} from "../servicios/jwt.service";
+import {userInfo} from "os";
 
 @Controller('auth')
 export class AuthController {
@@ -9,18 +10,21 @@ export class AuthController {
     @Post('emitir')
     emitirToken(
         @Body('usuario') usuario,
-        @Body('password') password
+        @Body('password') password,
     ) {
         const enviaParametors = usuario && password;
 
         if (enviaParametors) {
-            const credencialesValidas = usuario === 'adrianeguez' && password === '12345678910';
+            const credencialesValidas = usuario === 'adrianeguez' && password === '12345';
             if (credencialesValidas) {
-                return {
-                    jwt: this._jwtService.emitirToken({
-                        usuario: usuario
-                    })
-                };
+                return `
+                    <html>
+                    <head></head>
+                    <body>
+                    <h1>Token</h1>
+                    <p>${this._jwtService.emitirToken({usuario: usuario})}</p>
+                    </body>
+                    </html>`
             } else {
                 throw new BadRequestException({
                     mensaje: 'Credenciales Invalidas'
@@ -28,13 +32,13 @@ export class AuthController {
             }
         }
         else {
-            throw new BadGatewayException({
+            throw new BadRequestException({
                 mensaje: 'No envia parametros'
             });
         }
     }
 
-    @Post('verificartokenSync')
+    @Post('verificarSync')
     verificarTokenSync(
         @Body('jwt') jwt
     ) {
@@ -51,12 +55,12 @@ export class AuthController {
             }
         } else {
             throw new BadRequestException({
-                mensaje: 'No hay parametros'
+                mensaje: 'No envia parametros'
             })
         }
     }
 
-    @Post('verificartokenAsync')
+    @Post('verificarAsync')
     verificarTokenAsync(
         @Body('jwt') jwt
     ) {

@@ -18,6 +18,7 @@ import {AuthController} from "./auth/auth.controller";
             database: 'web',
             entities: [__dirname + '/../**/*.entity{.ts,.js}'],
             synchronize: true,
+            ssl: true
         }),
         TypeOrmModule.forFeature([UsuarioEntity])
     ],
